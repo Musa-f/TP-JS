@@ -14,7 +14,6 @@ let tabNom = [];
 let tabPrenom = [];
 let tabAge = [];
 
-//Style
 
 buttonAdd.addEventListener('click', function(){
     li = document.createElement('li');
@@ -37,7 +36,6 @@ buttonAdd.addEventListener('click', function(){
     spanPrenom.append(prenom);
     spanAge.append(age);
     li.append(spanNom,spanPrenom, spanAge)
-    //li.textContent = nom + ", " + prenom + ", " + age;
     li.append(deleteLi);
     ulList.append(li);
 
@@ -76,7 +74,7 @@ buttonDeleteAll.addEventListener('click', function(){
 })
 
 
-//Bouttons tri
+//Boutons tri
 buttonTriNom.addEventListener('click', function(){
     ulList.innerHTML = "";
 
