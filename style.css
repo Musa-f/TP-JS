@@ -55,12 +55,6 @@ ul{
 
 /*JS*/
 
-.box{
-    margin: 0;
-    height: 500px;
-    background-color: black;
-}
-
 .liStyle:nth-child(odd){
     background-color: gainsboro;
 }
