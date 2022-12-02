@@ -127,4 +127,6 @@ buttonTriAge.addEventListener('click', function(){
         ulList.append(li);
     }
 })
+
+
 //Fonction moins répétitve -> e target sur le click et prend en paramètre de la fonction la variable tableau, appeler la fonction pour chaque tableau
