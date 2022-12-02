@@ -57,6 +57,9 @@ ul{
     height: 500px;
 }
 
+button:hover{
+    cursor: pointer;
+}
 
 /*JS*/
 .liStyle:nth-child(odd){
