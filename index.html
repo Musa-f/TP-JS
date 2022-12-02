@@ -5,17 +5,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
-        <input type="text" id="nom" placeholder="Nom">
-        <input type="text" id="prenom" placeholder="Prénom">
-        <input type="number" id="age" placeholder="Âge">
+        <div class="container">
+            <div class="inputs">
 
-        <button id="add">Valider</button>
-        <button id="deleteAll">Tout supprimer</button>
-
-        <ul id="#list"></ul>
+                <div class="categorie">
+                    <input type="text" id="nom" placeholder="Nom">
+                    <button id="tri-nom" class="tri">Tri nom</button>
+                </div>
+    
+                <div class="categorie">
+                    <input type="text" id="prenom" placeholder="Prénom">
+                    <button id="tri-prenom" class="tri">Tri prénom</button>
+                </div>
+                
+                <div class="categorie">
+                    <input type="number" id="age" placeholder="Âge">
+                    <button id="tri-age" class="tri">Tri âge</button>
+                </div>
+    
+                <button id="add">Valider</button>
+                <button id="deleteAll">Tout supprimer</button>
+            </div>
+    
+            <ul id="#list"></ul>
+        </div>
 
         <script src="script.js"></script>
     </body>

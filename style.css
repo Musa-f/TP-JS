@@ -1,0 +1,76 @@
+.container{
+    width: 900px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    height: 40px;
+    padding: 2%;
+}
+
+.categorie{
+    display: flex;
+}
+
+input{
+    width: 120px;
+    height: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+button.tri{
+    height: 26px;
+    color: #fff;
+    background-color: black;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+button#add, button#deleteAll{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+button#add{
+    background-color: green;
+}
+
+button#deleteAll{
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+
+
+/*JS*/
+
+.box{
+    margin: 0;
+    height: 500px;
+    background-color: black;
+}
+
+.liStyle:nth-child(odd){
+    background-color: gainsboro;
+}
+
+.liStyle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+}
